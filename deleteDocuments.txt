@@ -1,0 +1,12 @@
+To delete all the documents
+
+db.[collectionName].deleteMany();
+
+
+To delete all based on condition
+
+db.[collectionName].deleteMany({name:"praveen",age:25});
+
+To delete one document
+
+db.[collectionName].delete({name:'praveen'});

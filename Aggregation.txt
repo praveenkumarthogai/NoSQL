@@ -1,0 +1,37 @@
+aggregation stages :
+
+$count
+$group
+$limit
+$lookup
+$match
+$merge
+$sort
+$project
+$unwind
+$unset
+
+aggregation is similar to find method.
+
+it accepts array | pipeline where sequence of stages can be given 
+
+
+var pipeline = [
+    {$group:{}}
+    {$sort:{id:1}},
+    {$limit: 4}
+]
+db.product.aggregate(pipeline);
+
+
+
+----Group By ----
+
+db.sales.aggregate( [
+  {
+    $group: {
+       _id: null,
+       count: { $count: { } } //SELECT COUNT(*) AS count FROM sales
+    }
+  }
+] )

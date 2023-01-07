@@ -1,0 +1,38 @@
+Database
+
+mongodb can have no of databases
+A database can have no of collections
+it is case sensitive 
+
+---collections---
+
+it is collection of documents
+collections have no schema
+no join support between collections but it is partially achieved by aggregation
+
+
+---documents----
+
+it is key value pair json document
+
+document have any user defined schema as key value pair of supported data types in mongodb
+user defined schema of the document is not fixed it is dynamic
+
+{
+    "_id":"bvbbfhfjsskskskbfbvb"
+    "firstName":"praveen",
+    "lastname":"kumar",
+    "email":"test@gmail.com"
+},
+{
+    "_id":"vbnnfnfheeoiiiooo",
+    "firstName":"Praveen",
+    "lastname":"kumar",
+    "email":"test@gmail.com"
+    "address":"chennai"
+}
+
+Mongdb will automatically add a key _id (guid)
+
+
+

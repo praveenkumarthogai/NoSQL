@@ -1,0 +1,27 @@
+every document inserted has a unique id (it is kind of primary key)
+
+do not change the _id value
+
+--To insert a single document and multiple documents---
+
+use mongodb API's 
+
+db.[collectionName].insert({"name":"Praveen"}) //single
+
+db.[collectionName].insertMany({"name":"Praveen"})//multiple
+
+
+example : type the query in vs code and execute in terminal
+
+db.product.insertMany([
+    
+    {
+       "name":"Praveen",
+       "designation":"software developer"
+    },
+    {
+       "name":"Praveen",
+       "designation":"Senior software developer"
+    }
+    ])
+

@@ -1,0 +1,36 @@
+
+//consider 
+*)collectionName = product
+*)db = database
+
+
+----find method with comparison operators---- 
+
+db.product.find({"Tax":{$lte:1000}}) 
+
+
+replace $lte with other operators ($gte,$gt,$lt)
+
+
+----And & OR operators------
+
+db.product.find( { $and: [ {"Tax":"3000"},{"designation":"PAT"} ] } )
+
+db.product.find( { $or: [ {"Tax":"3000"},{"designation":"PAT"} ] } )
+
+
+---Quering specific fields----- or ---mongodb projection--- 
+
+1 - fetch
+0 - dont fetch
+
+db.product.find({name:"praveen"},{"designation":1});
+
+
+db.product.find({"Tax":{$gte:200000}},{"name":1});
+
+
+
+
+
+

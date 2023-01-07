@@ -1,0 +1,9 @@
+Index will increase query speed | Add index for frequently used column mainly used for conditions
+
+
+By default "_id" created at every document insert and act as index as well
+
+db.product.ensureIndex({"salary":1}) 
+
+
+check indexs for particular collection in index tab of compass GUI.

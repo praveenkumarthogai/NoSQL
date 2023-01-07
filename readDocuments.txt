@@ -1,0 +1,14 @@
+//To get all records
+find(); 
+
+//To get all records with where condition
+
+find({name:"praveen"});
+
+//To get one document with where condition
+
+findOne({name:"Praveen"})
+
+findOneAndReplace({name:"praveen"},{name:"kumar"});
+
+findOneAndDelete({name:"praveen"})

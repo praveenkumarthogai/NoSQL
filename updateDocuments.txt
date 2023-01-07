@@ -1,0 +1,32 @@
+query to update single and update insertMany
+
+
+query syntax :
+
+db.[collectionName].update({where condition},{set column and values});
+
+//single document update
+
+db.[collectionName].update(
+    {
+        name:"praveen"
+    },
+    {
+        $set:{
+            isActive:true
+        }
+    }
+)
+
+//multi document update
+
+db.[collectionName].updateMany(
+    {
+        name:"praveen"
+    },
+    {
+        $set:{
+            isActive:true
+        }
+    }
+)

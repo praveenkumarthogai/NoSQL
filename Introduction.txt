@@ -1,0 +1,35 @@
+Introduction :
+Database - collection of Data in structured way
+SQL - structured query language
+RDMS = Relational Data Management service
+Database like sql,oracle,postgresql,mysql
+
+
+NOsql or non sql or non Relational
+Data is not modeled in Relational or  defined tabular form
+
+Database like Mongodb,dynamodb
+
+use case : large big data application & large distributed apps
+
+----Mongodb---
+
+Mongodb is opensource & cross platform suport & document based(json) database
+
+nosql database provides API's to query/update the documents
+
+example of document :
+{
+    name:'praveen'
+    designation:'software developer'
+}
+
+Mongodb does not have joins but it has a provision called aggregation 
+
+combinations :
+Java + Mongodb
+dotnet + Mongodb
+nodejs + Mongodb etc..
+
+For (M)ERN & (M)EAN developer Mongodb is useful
+

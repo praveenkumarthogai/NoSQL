@@ -1,0 +1,13 @@
+default port - 27017
+
+default databases in mongodb server
+--admin
+--config
+--local
+
+actions:
+Insert
+edit
+clone
+delete
+copy

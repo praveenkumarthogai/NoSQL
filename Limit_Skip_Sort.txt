@@ -1,0 +1,12 @@
+limit, skip,sort with find function
+
+db.product.find().limit(4); //top 4 records
+
+db.product.find().skip(2); // skip first 2 records
+
+---sort---
+
+1 ----> ascending order
+-1 ---> descending order
+
+db.product.find().sort({"createdDate":-1});

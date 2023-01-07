@@ -1,0 +1,4 @@
+go to the bin folder of mongodb and run 
+
+mongdumb.exe //it will create folder named dumb | it is the backup
+mongorestore.exe //to restore   

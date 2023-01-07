@@ -1,0 +1,17 @@
+BSON - specific to mongodb
+JSON
+Integer
+Boolean
+Double
+Arrays
+Object
+Null
+Date 
+TimeStamp 
+Object Id - specific to mongodb
+Code
+
+BSON ?
+
+it is mongodb datatype in this format mongodb stores and process the data (binary encoded)
+it supports some extended data types which not supported in json => date,TimeStamp,ObjectId

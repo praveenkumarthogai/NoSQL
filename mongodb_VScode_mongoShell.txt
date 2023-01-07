@@ -1,0 +1,26 @@
+Approach -1
+using vs code extesion - mongodb for vscode you can work with mongodb instead of using compass gui
+Approach - 2
+mongodb shell is mongodb cli which is a java script based cli tool
+Approach - 3
+go to programfile -> mongodb -> bin => mongodb.exe to work with cli commands
+
+-----cli commands--------
+
+*) To display the databases
+show databases
+
+*) To create a database | to switch to a database
+use [databasename]
+
+*) To delete database
+   db.dropDatabase()
+
+*) To show current db
+   db
+
+*)To create a collection
+  db.createCollection("collectionName");
+
+*)To drop a collection
+ db.[collectionName].drop(); 

@@ -1,0 +1,19 @@
+Community server - Install in  your local machine
+Visual Studio Extension - Own Remote Mongodb
+Mongodb Atlas - Provided by Mongodb organization it's a cloud based 
+
+Approach 1
+Install Community version of Mongodb
+Install Mongdb compass as well GUI for Mongodb
+Default port - 27017
+
+
+Approach -2 
+
+vs code extension Mongdb for Vs code
+click the mongodb icon in left bar
+
+
+Approach -3
+
+Cloud hosted & pay as you go model & secured managed by mongodb company
