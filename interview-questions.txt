@@ -1,0 +1,9 @@
+what is mongodb ?
+
+what is aggregation?
+
+is join possible in mongodb ? if yes how ?
+
+is index possible in mongodb? if yes why it is needed?
+
+explain crud api's of mongodb?

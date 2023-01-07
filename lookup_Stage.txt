@@ -1,0 +1,27 @@
+//left outer join
+
+
+
+db.role.aggregate([
+    {
+        $lookup: {
+            from: 'salary',
+            localField: 'empid',
+            foreignField: 'empid',
+            as: 'salaryDetaails'
+        }
+    }
+
+
+])
+
+
+role - left table
+
+from - right table
+
+localField - left table column
+
+foreignField - right table column
+
+as salaryDetaails : //common records from right table
